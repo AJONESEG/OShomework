@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 		printf("Child says Hello\n ");
 	}
 	else{
-		usleep(10*1000);
+		sleep(1);
 		printf("Parent says Goodbye\n");
 		
 	}
